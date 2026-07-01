@@ -182,21 +182,6 @@ RAZORPAY_KEY_SECRET=your_razorpay_secret
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots of the following pages:
-
-- 🏠 Home Page
-- 🛒 Product Listing
-- 📄 Product Details
-- 🛍️ Shopping Cart
-- 💳 Checkout Page
-- 📦 Order Success
-- 🔐 Admin Login
-- 📊 Admin Dashboard
-
----
-
 ## ✨ Key Features
 
 - Full Stack MERN Architecture
