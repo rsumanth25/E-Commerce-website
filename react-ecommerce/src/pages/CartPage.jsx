@@ -63,7 +63,7 @@ const handleProceedToCheckout = () => {
              <img
   src={
     item.image?.startsWith('/uploads')
-      ? `http://localhost:5000${item.image}`
+      ? `https://e-commerce-website-s5nt.onrender.com${item.image}`
       : item.image
   }
   alt={item.title}

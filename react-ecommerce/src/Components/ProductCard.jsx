@@ -56,7 +56,7 @@ const quantity = existingCartItem?.quantity || 0;
   <img
     src={
       product.image?.startsWith('/uploads')
-        ? `http://localhost:5000${product.image}`
+        ? `https://e-commerce-website-s5nt.onrender.com${product.image}`
         : product.image
     }
     alt={product.title}

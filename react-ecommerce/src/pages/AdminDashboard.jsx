@@ -22,7 +22,7 @@ const [stock, setStock] = useState('');
 const fetchProducts = async () => {
   try {
     const response = await fetch(
-      'http://localhost:5000/api/products'
+      'https://e-commerce-website-s5nt.onrender.com/api/products'
     );
 
     const data = await response.json();
@@ -47,7 +47,7 @@ const fetchProducts = async () => {
 
     const response =
       await axios.get(
-        'http://localhost:5000/api/orders'
+        'https://e-commerce-website-s5nt.onrender.com/api/orders'
       );
 
     setOrders(response.data);
@@ -111,7 +111,7 @@ fetchProducts();
     );
 
     await axios.post(
-      'http://localhost:5000/api/products',
+      'https://e-commerce-website-s5nt.onrender.com/api/products',
       formData
     );
 
@@ -140,7 +140,7 @@ const updateStatus = async (
   try {
 
     await axios.put(
-      `http://localhost:5000/api/orders/${orderId}/status`,
+      `https://e-commerce-website-s5nt.onrender.com/api/orders/${orderId}/status`,
       { status }
     );
 
@@ -157,7 +157,7 @@ const updateStatus = async (
   try {
 
     await axios.delete(
-      `http://localhost:5000/api/products/${id}`
+      `https://e-commerce-website-s5nt.onrender.com/api/products/${id}`
     );
 
     fetchProducts();
@@ -179,7 +179,7 @@ const updateStock = async (
   try {
 
     await axios.put(
-      `http://localhost:5000/api/products/${id}/stock`,
+      `https://e-commerce-website-s5nt.onrender.com/api/products/${id}/stock`,
       { stock }
     );
 
@@ -358,7 +358,7 @@ const updateStock = async (
       <tr key={product._id}>
         <td>
           <img
-  src={`http://localhost:5000${product.image}`}
+  src={`https://e-commerce-website-s5nt.onrender.com${product.image}`}
   alt={product.title}
   width="50"
 />
