@@ -10,7 +10,6 @@ import cupImg from '../assets/cup.jpg';
 import beltImg from '../assets/belt.jpg';
 import chairImg from '../assets/chair.jpg';
 import jeansImg from '../assets/jeans.jpg';
-import NecklaceImg from '../assets/Necklace.jpg';
 import tableImg from '../assets/table.jpg';
 
 const LOCAL_PRODUCTS = [
@@ -70,13 +69,7 @@ const LOCAL_PRODUCTS = [
     category: "Apparel",
     image: jeansImg
   },
-  {
-    id: 9,
-    title: "Gold Necklace",
-    price: 100000,
-    category: "Accessories",
-    image: NecklaceImg
-  },
+  
   {
     id: 10,
     title: "Wooden Table",

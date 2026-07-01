@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import Skeleton from './Components/Skeleton';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Home from './pages/Home'; 
