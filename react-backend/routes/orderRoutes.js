@@ -7,7 +7,7 @@ const {
   createOrder,
   getOrders,updateOrderStatus
 } = require(
-  '../controllers/orderController'
+  '../controllers/OrderController'
 );
 
 router.post(

@@ -1,0 +1,6 @@
+* [33mfcdd536[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Remove .env from repository
+* [33m02a973b[m Prepare backend for deployment
+[31m|[m * [33m01abfb7[m[33m ([m[1;31morigin/main[m[33m)[m Delete license information from README
+[31m|[m * [33md7480a4[m Create README.md
+[31m|[m[31m/[m  
+* [33m1e55db5[m Initial commit
