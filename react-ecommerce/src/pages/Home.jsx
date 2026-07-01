@@ -10,7 +10,7 @@ import cupImg from '../assets/cup.jpg';
 import beltImg from '../assets/belt.jpg';
 import chairImg from '../assets/chair.jpg';
 import jeansImg from '../assets/jeans.jpg';
-import NecklaceImg from '../assets/necklace.jpg';
+import NecklaceImg from '../assets/Necklace.jpg';
 import tableImg from '../assets/table.jpg';
 
 const LOCAL_PRODUCTS = [
