@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { Provider } from 'react-redux'
 import { BrowserRouter } from 'react-router-dom'
-import Skeleton from './Components/skeleton.jsx'
+import Skeleton from './Components/Loadingskeleton.jsx'
 import './index.css'
 import App from './App.jsx'
 

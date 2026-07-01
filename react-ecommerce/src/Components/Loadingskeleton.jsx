@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skeleton.css';
+import './Loadingskeleton.css';
 
 const Skeleton = ({ className = '', width, height, borderRadius, style }) => {
   const customStyle = {
