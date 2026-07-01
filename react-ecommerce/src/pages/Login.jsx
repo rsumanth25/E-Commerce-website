@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate, useLocation, Link } from 'react-router-dom';
 import { EmailOutlined, LockOutlined, ArrowForward, VisibilityOutlined, VisibilityOffOutlined } from '@mui/icons-material';
-import Skeleton from '../Components/Skeleton';
+import Skeleton from '../Components/skeleton';
 import './Login.css';
 import {
   GoogleAuthProvider,
